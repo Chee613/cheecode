@@ -41,9 +41,9 @@ d.system.out.println("Java is case sensitive!" );
 ### Corrected Syntax
 ```bash
 a. System.out.println("Java Programming");
-b. System.out.println("Introduction to Java!”);
-c. System.out.println("\\t is the horizontal tab character”);
-d. System.out.println("Java is case sensitive!”);
+b. System.out.println("Introduction to Java!");
+c. System.out.println("\\t is the horizontal tab character");
+d. System.out.println("Java is case sensitive!");
 ```
 </details>
 
@@ -65,7 +65,7 @@ b. final double pi=3.142;
 c. boolean M=false;
 d. long P= 8800000000L;
 e. char letter= ‘U’;
-f. final String PRO= "Java”;
+f. final String PRO= "Java";
 
 ```
 </details>
@@ -83,9 +83,9 @@ System.out.println("The amount is " + AMOUNT);
 
 ### Corrected answer
 ```bash
-double AMOUNT= "32.5”;
+double AMOUNT= "32.5";
 AMOUNT +=10;
-System.out.println("The amount is ”+ AMOUNT);
+System.out.println("The amount is "+ AMOUNT);
 ```
 ### 5.b.
 ```bash
@@ -97,7 +97,7 @@ System.out.println(chapter);
 
 ### Corrected answer
 ```bash
-String chapter= "Summary”;
+String chapter= "Summary";
 System.out.println(chapter);
 ```
 ### 5.c.
@@ -124,7 +124,7 @@ int num = 3000; System.out.printf("%4.2f\n", num);
 ### Corrected answer
 ```bash
 double num= 3000;
-System.out.printf("%4.2f%n”,num);
+System.out.printf("%4.2f%n",num);
 ```
 
 ### 5.e.
