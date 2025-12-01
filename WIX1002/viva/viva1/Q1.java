@@ -1,0 +1,33 @@
+package WIX1002.viva.viva1;
+
+import java.util.Scanner;
+
+public class Q1 {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int q;
+
+        System.out.print("Please enter the number of inquiries:");
+        q = input.nextInt();
+
+        for (int i = 1; i <= q; i++) {
+            int a, b, n;
+            System.out.printf(
+                    "Please enter the %d queries in the format: [Initial Value] [Multiplier Seed] [Charm Length]\n",i);
+            a = input.nextInt();
+            b = input.nextInt();
+            n = input.nextInt();
+
+            int ans;
+
+            for (int j = 1; j <= n; j++) {
+                ans = (int) (a + (b * (Math.pow(2, j - 1))));
+                System.out.print(ans + " ");
+            }
+            System.out.println();
+        }
+        input.close();
+    }
+}
+
