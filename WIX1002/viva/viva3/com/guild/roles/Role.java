@@ -24,17 +24,37 @@ public class Role {
     }
 
     // Getters and Setters
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
+    public String getName() { 
+        return name; 
+    }
 
-    public Integer getAge() { return age; }
-    public void setAge(Integer age) { this.age = age; }
+    public void setName(String name) {
+        this.name = name; 
+    }
 
-    public String getRace() { return race; }
-    public void setRace(String race) { this.race = race; }
+    public Integer getAge() { 
+        return age; 
+    }
+    
+    public void setAge(Integer age) { 
+        this.age = age; 
+    }
 
-    public Double getMana() { return mana; }
-    public void setMana(Double mana) { this.mana = mana; }
+    public String getRace() { 
+        return race; 
+    }
+    
+    public void setRace(String race) { 
+        this.race = race; 
+    }
+
+    public Double getMana() { 
+        return mana; 
+    }
+    
+    public void setMana(Double mana) { 
+        this.mana = mana; 
+    }
 
     // Instance Method
     public void performAction() {

@@ -7,6 +7,9 @@ public class PersonTest {
         Person p2 = new Person("Luna", 20);
         Person p3 = new Person("Luna", 20);
 
+        String name="Jitesh";
+        
+
         // Test exceptions
         try {
             p1.setAge(-5);
